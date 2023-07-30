@@ -5,4 +5,4 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 sed -i 's/plugins=(git)/plugins=(git  zsh-autosuggestions zsh-syntax-highlighting )/' ~/.zshrc
 source ~/.zshrc
-echo "OK"
+zsh
